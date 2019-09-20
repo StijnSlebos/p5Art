@@ -37,7 +37,7 @@ function draw() {
   x += speedx;
   y += speedy;
   //draw
-  //ellipse(x, y, size, size);
+  ellipse(x, y, size, size);
 
   for (let i = 0; i < balls.length; i++) {
     balls[i].bounce();
