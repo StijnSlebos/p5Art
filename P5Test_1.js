@@ -29,7 +29,7 @@ function draw() {
   sinetime ++;
   //color changer
   if (time > 10) {
-    background('rgba(20, 20, 90,0.5)');
+    background('rgba(20, 20, 90,0.05)');
     time = 0;
     fill(0);
   } else {
